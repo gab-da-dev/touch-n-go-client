@@ -40,7 +40,7 @@ const Products = (prop) => {
                 }}>
                     <img
                         className="card-img-top"
-                        src={`164.90.131.16/storage/${el.image_name}`}
+                        src={`http://164.90.131.16/storage/${el.image_name}`}
                         style={{
                         width: '100% !important',
                         height: '15vw',

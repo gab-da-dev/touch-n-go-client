@@ -53,7 +53,7 @@ const ProductModal = (props) => {
                     <Modal.Title>{props.modalproduct.name}</Modal.Title>
                 </Modal.Header>
                     <img
-                        src={`164.90.131.16/storage/${props.modalproduct.image_name}`}
+                        src={`http://164.90.131.16/storage/${props.modalproduct.image_name}`}
                         alt={''}
                         style={{
                         width: '100%',
@@ -69,7 +69,7 @@ const ProductModal = (props) => {
                         <div className="row">
                             {/* <div className="col">
                             <img
-                        src={`164.90.131.16/storage/${props.modalproduct.image_name}`}
+                        src={`http://164.90.131.16/storage/${props.modalproduct.image_name}`}
                         alt={''}
                         style={{
                         width: '100%'

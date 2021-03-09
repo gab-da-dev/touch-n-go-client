@@ -26,7 +26,7 @@ const Login = (props) => {
     });
 
     let login = (form) => {
-        axios.post(`164.90.131.16/api/login`, form)
+        axios.post(`http://164.90.131.16/api/login`, form)
         .then( (res) =>  {
             Cookies.set('username', `${res.data.user.name}`, {expires: 7})
             Cookies.set('token', `${res.data.access_token}`, {expires: 7})
@@ -50,7 +50,7 @@ const Login = (props) => {
 
     useEffect(() => {
         // var pusher = new Pusher('20b28ddb2fe835b19efb', {
-        //     authEndpoint: '164.90.131.16/broadcasting/auth',
+        //     authEndpoint: 'http://164.90.131.16/broadcasting/auth',
         //     cluster: 'ap1',
         //     encrypted: true,
         //     headers: {

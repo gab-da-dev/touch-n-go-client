@@ -12,7 +12,7 @@ const EditMeal = (props) => {
 
     // const getMeal = () => {
     //     axios
-    //         .get(`164.90.131.16/api/meal/${id}`)
+    //         .get(`http://164.90.131.16/api/meal/${id}`)
     //         .then((response) => {
     //             // handle success const response =
     //             console.log(response.data);
@@ -33,7 +33,7 @@ const EditMeal = (props) => {
 
     useEffect(() => {
         axios
-        .get(`164.90.131.16/api/meal/${id}`)
+        .get(`http://164.90.131.16/api/meal/${id}`)
         .then((response) => {
             // handle success const response =
             console.log(response.data);

@@ -30,7 +30,7 @@ const Orders = () => {
     
     useEffect(() => {
         axios
-            .get(`164.90.131.16/api/userorder/${user_id}`) 
+            .get(`http://164.90.131.16/api/userorder/${user_id}`) 
             .then((response) => {
                 setOrder(response.data);
                 console.log(response.data);

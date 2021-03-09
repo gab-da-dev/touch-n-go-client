@@ -121,7 +121,7 @@ const Index = (props) => {
     const handleGetStore = (id) => {
         
         axios
-                .get(`164.90.131.16/api/store/${id}`)
+                .get(`http://164.90.131.16/api/store/${id}`)
                 .then((response) => {
                     setStore(JSON.parse(response.data[0].config));
                     setProducts(response.data[1]);

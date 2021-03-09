@@ -26,7 +26,7 @@ const Store = (props) => {
                 <div
                     className="jumbotron"
                     style={{
-                    backgroundImage: `url(164.90.131.16/storage/${props.getStore.imageUpload})`,
+                    backgroundImage: `url(http://164.90.131.16/storage/${props.getStore.imageUpload})`,
                     backgroundSize: `cover`,
                     height: `300px`
                 }}></div>

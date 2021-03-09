@@ -5,14 +5,14 @@ export default {
     // called when the user attempts to log in
     login: async ({ username, password }) => {
 
-        let res = await axios.post(`164.90.131.16/api/login`,{ email: username, password },{headers: {'X-Custom-Header': 'foobar'}})
+        let res = await axios.post(`http://164.90.131.16/api/login`,{ email: username, password },{headers: {'X-Custom-Header': 'foobar'}})
         localStorage.setItem('username', username);
         localStorage.setItem('token', res.data.access_token);
         Cookies.set('username', `${res.data.user.username}`, {expires: 7})
         Cookies.set('token', `${res.data.access_token}`, {expires: 7})
         Cookies.set('id', `${res.data.user.id}`, {expires: 7})
         
-        // let storeRes = await axios.get(`164.90.131.16/api/store/${res.data.user_id}`,{ },)
+        // let storeRes = await axios.get(`http://164.90.131.16/api/store/${res.data.user_id}`,{ },)
         // Cookies.set('storeStatus', storeRes, {expires: 7})
         
         console.log(res);

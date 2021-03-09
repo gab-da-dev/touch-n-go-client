@@ -20,11 +20,11 @@ import Cookies from 'js-cookie';
             createUserForm.append('password_confirmation', values.password_confirmation);
 
             axios
-                .post(`164.90.131.16/api/register`, createUserForm)
+                .post(`http://164.90.131.16/api/register`, createUserForm)
                 .then(function (response) {
                     Cookies.set('token', `${response.data.access_token}`, {expires: 7})
                     // cookie('token', response.access_token, { httpOnly: true });
-                axios.post(`164.90.131.16/api/store`,{ id:response.data.user.id }).then(function(){
+                axios.post(`http://164.90.131.16/api/store`,{ id:response.data.user.id }).then(function(){
                     console.log(response);
                 })
                 })
