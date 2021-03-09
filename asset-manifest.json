@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.a38ad579.chunk.css",
-    "main.js": "./static/js/main.3933aeb3.chunk.js",
-    "main.js.map": "./static/js/main.3933aeb3.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.e9fad991.js",
-    "runtime-main.js.map": "./static/js/runtime-main.e9fad991.js.map",
-    "static/js/2.17ef1a84.chunk.js": "./static/js/2.17ef1a84.chunk.js",
-    "static/js/2.17ef1a84.chunk.js.map": "./static/js/2.17ef1a84.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.7607559129be178a15cca0414dc8d0af.js": "./precache-manifest.7607559129be178a15cca0414dc8d0af.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.a38ad579.chunk.css.map": "./static/css/main.a38ad579.chunk.css.map",
-    "static/js/2.17ef1a84.chunk.js.LICENSE.txt": "./static/js/2.17ef1a84.chunk.js.LICENSE.txt"
+    "main.css": "/github.com/gab-da-dev/touchngo.co.za/static/css/main.a38ad579.chunk.css",
+    "main.js": "/github.com/gab-da-dev/touchngo.co.za/static/js/main.e6b2c3dc.chunk.js",
+    "main.js.map": "/github.com/gab-da-dev/touchngo.co.za/static/js/main.e6b2c3dc.chunk.js.map",
+    "runtime-main.js": "/github.com/gab-da-dev/touchngo.co.za/static/js/runtime-main.3ac42027.js",
+    "runtime-main.js.map": "/github.com/gab-da-dev/touchngo.co.za/static/js/runtime-main.3ac42027.js.map",
+    "static/js/2.17ef1a84.chunk.js": "/github.com/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js",
+    "static/js/2.17ef1a84.chunk.js.map": "/github.com/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js.map",
+    "index.html": "/github.com/gab-da-dev/touchngo.co.za/index.html",
+    "precache-manifest.3733394d4b1bc789f5e83c64cbbca5ce.js": "/github.com/gab-da-dev/touchngo.co.za/precache-manifest.3733394d4b1bc789f5e83c64cbbca5ce.js",
+    "service-worker.js": "/github.com/gab-da-dev/touchngo.co.za/service-worker.js",
+    "static/css/main.a38ad579.chunk.css.map": "/github.com/gab-da-dev/touchngo.co.za/static/css/main.a38ad579.chunk.css.map",
+    "static/js/2.17ef1a84.chunk.js.LICENSE.txt": "/github.com/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9fad991.js",
+    "static/js/runtime-main.3ac42027.js",
     "static/js/2.17ef1a84.chunk.js",
     "static/css/main.a38ad579.chunk.css",
-    "static/js/main.3933aeb3.chunk.js"
+    "static/js/main.e6b2c3dc.chunk.js"
   ]
 }
