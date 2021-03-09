@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gab-da-dev/touchngo.co.za/static/css/main.a38ad579.chunk.css",
+    "main.js": "/gab-da-dev/touchngo.co.za/static/js/main.87c25eb0.chunk.js",
+    "main.js.map": "/gab-da-dev/touchngo.co.za/static/js/main.87c25eb0.chunk.js.map",
+    "runtime-main.js": "/gab-da-dev/touchngo.co.za/static/js/runtime-main.b37faff8.js",
+    "runtime-main.js.map": "/gab-da-dev/touchngo.co.za/static/js/runtime-main.b37faff8.js.map",
+    "static/js/2.17ef1a84.chunk.js": "/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js",
+    "static/js/2.17ef1a84.chunk.js.map": "/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js.map",
+    "index.html": "/gab-da-dev/touchngo.co.za/index.html",
+    "precache-manifest.7ee1e4083179f1a14a1b475f264c6c28.js": "/gab-da-dev/touchngo.co.za/precache-manifest.7ee1e4083179f1a14a1b475f264c6c28.js",
+    "service-worker.js": "/gab-da-dev/touchngo.co.za/service-worker.js",
+    "static/css/main.a38ad579.chunk.css.map": "/gab-da-dev/touchngo.co.za/static/css/main.a38ad579.chunk.css.map",
+    "static/js/2.17ef1a84.chunk.js.LICENSE.txt": "/gab-da-dev/touchngo.co.za/static/js/2.17ef1a84.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b37faff8.js",
+    "static/js/2.17ef1a84.chunk.js",
+    "static/css/main.a38ad579.chunk.css",
+    "static/js/main.87c25eb0.chunk.js"
+  ]
+}
