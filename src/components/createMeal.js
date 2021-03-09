@@ -6,7 +6,7 @@ import axios from 'axios'
 const CreateMeal = (props) => {
 
     const createMeal = function(data) {
-        axios.post(`http://localhost:8000/api/meal`, data, {
+        axios.post(`164.90.131.16/api/meal`, data, {
             headers: {
                 'content-type': 'multipart/form-data'
             }

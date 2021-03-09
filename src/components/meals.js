@@ -15,7 +15,7 @@ class Meals extends Component {
     }
 
     getMeals(){
-        axios.get('http://localhost:8000/api/meal')
+        axios.get('164.90.131.16/api/meal')
         .then( (response) =>  {
             // handle success
             this.setState({meals: response.data});
@@ -42,7 +42,7 @@ class Meals extends Component {
         {
         this.state.meals.map((el, index) =>
             <div className="card col-3 text-center" key={index} style={{ width: '18rem', height: '18rem', marginLeft: '20px', marginBottom: '20px' }}>
-            <img className="card-img-top" src={`http://localhost:8000/storage/${el.imageName}`} style={{ width: '100% !important' }}/>
+            <img className="card-img-top" src={`164.90.131.16/storage/${el.imageName}`} style={{ width: '100% !important' }}/>
             <div className="card-body">
             <h5 className="card-title">{ el.name }</h5>
                 <p className="card-text">{ el.price }</p>

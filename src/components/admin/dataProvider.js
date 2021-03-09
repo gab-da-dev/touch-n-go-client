@@ -3,7 +3,7 @@ import { stringify } from 'query-string';
 import axios from 'axios'
 import Cookies from 'js-cookie';
 
-const apiUrl = `http://localhost:8000/api`;
+const apiUrl = `164.90.131.16/api`;
 const httpClient = fetchUtils.fetchJson;
 
 export default {

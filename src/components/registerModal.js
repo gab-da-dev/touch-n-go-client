@@ -26,7 +26,7 @@ const RegisterModal = (props) => {
         });
 
     let login = (form) => {
-        axios.post(`http://localhost:8000/api/login`, form)
+        axios.post(`164.90.131.16/api/login`, form)
         .then( (res) =>  {
             Cookies.set('username', `${res.data.user.name}`, {expires: 7})
             Cookies.set('token', `${res.data.access_token}`, {expires: 7})

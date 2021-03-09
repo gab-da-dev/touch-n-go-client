@@ -18,7 +18,7 @@ const Meal = (prop) => {
 
     useEffect(() => {
       // getStores();
-      axios.get(`http://localhost:8000/api/meal/${id}`)
+      axios.get(`164.90.131.16/api/meal/${id}`)
         .then( (response) =>  {
             // handle success
             // const response =
@@ -77,12 +77,12 @@ onSubmit: values => {
     return (
         <React.Fragment>
             <animated.div style={props}>
-          {/* <div className="jumbotron col-12" style={{backgroundImage: `url(http://localhost:8000/storage/${meal.imageName}`, backgroundSize: `cover`, height: `300px` }}>
+          {/* <div className="jumbotron col-12" style={{backgroundImage: `url(164.90.131.16/storage/${meal.imageName}`, backgroundSize: `cover`, height: `300px` }}>
          </div>  */}
          <div className="container">
              <div className="row">
                 <div className="col">
-                    <img src={`http://localhost:8000/storage/${meal.image_name}`}  style={{ width: '100%' }}/>
+                    <img src={`164.90.131.16/storage/${meal.image_name}`}  style={{ width: '100%' }}/>
                 </div>
                 <div className="col">
                 <form onSubmit={formik.handleSubmit}>

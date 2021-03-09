@@ -28,7 +28,7 @@ const Cart = (props) => {
 
     let saveOrder = (form) => {
         if(props.checkLogin()){
-        axios.post(`http://localhost:8000/api/order`, form,
+        axios.post(`164.90.131.16/api/order`, form,
         {
           headers: {
             Authorization: 'Bearer ' + Cookies.get('token')

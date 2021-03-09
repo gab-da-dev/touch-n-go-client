@@ -31,7 +31,7 @@ const Store = (props) => {
         }
     })
         useEffect(() => {
-            axios.get(`http://localhost:8000/api/store`)
+            axios.get(`164.90.131.16/api/store`)
                 .then( (response) =>  {
                     // return
                     setStores(response.data);

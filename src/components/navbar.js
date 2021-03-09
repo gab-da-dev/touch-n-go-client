@@ -32,7 +32,7 @@ function NavigationbBar(props) {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand href="#home">touch&go</Navbar.Brand>
                     <Nav className="text-center ml-auto">
-                        <Link
+                        {/* <Link
                             className={selectedNav === '/'
                             ? 'active nav-link'
                             : 'nav-link'}
@@ -41,7 +41,7 @@ function NavigationbBar(props) {
                             handleActive('/')
                         }}>Home
                             <span className="sr-only">(current)</span>
-                        </Link>
+                        </Link> */}
                         <Link
                             className={selectedNav === '/stores'
                             ? 'active nav-link'
@@ -71,10 +71,6 @@ function NavigationbBar(props) {
       <Nav.Link href="/login">Login</Nav.Link>
       <Nav.Link href="/register">Register</Nav.Link> */}
                     </Nav>
-                    {/* <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form> */}
                 </Navbar.Collapse>
             </Navbar>
             
@@ -90,7 +86,7 @@ function NavigationbBar(props) {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand href="#home">touch&go</Navbar.Brand>
                     <Nav className="text-center ml-auto">
-                        <Link
+                        {/* <Link
                             className={selectedNav === '/'
                             ? 'active nav-link'
                             : 'nav-link'}
@@ -99,7 +95,7 @@ function NavigationbBar(props) {
                             handleActive('/')
                         }}>Home
                             <span className="sr-only">(current)</span>
-                        </Link>
+                        </Link> */}
                         <Link
                             className={selectedNav === '/stores'
                             ? 'active nav-link'
